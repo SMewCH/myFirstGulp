@@ -1,0 +1,500 @@
+    6  history > 180401_history.txt
+    7  atom .
+    8  cd..
+    9  cd ..
+   10  mkdir Smooch && cd Smooch
+   11  npm list -g | grep clasp
+   12  npm list -g | clasp
+   13  npm list -g | grep clasp
+   14  type %userprofile%\.ssh\id_rsa.pub
+   15  cat ~/.ssh/id_rsa.pub
+   16  cat ~/.ssh/id_rsa.pub
+   17  cd ..
+   18  ls
+   19  cd ..
+   20  cd Dev/
+   21  ls
+   22  cd  backOffice/
+   23  mkdir timesheets
+   24  ls
+   25  cd timeSheets/
+   26  ls
+   27  ls -a
+   28  $(git rev-parse --show-toplevel)
+   29  $(git rev-parse --show-toplevel | xargs basename)
+   30  git push --set-upstream git@gitlab.com:suleman.p.shaikh/ayahinc/backoffice/timeSheets.git master
+   31  git init
+   32  git push --set-upstream git@gitlab.com:suleman.p.shaikh/ayahinc/backoffice/timeSheets.git master
+   33  git config --global user.name "Suleman Shaikh"
+   34  git config --global user.email "suleman.p.shaikh@gmail.com"
+   35  ls -a
+   36  ls .git/
+   37  ls -a .git/
+   38  ls -a
+   39  git init
+   40  git remote add origin git@gitlab.com:ayahinc/backoffice/timeSheets/timeSheets.git
+   41  git add .
+   42  git status
+   43  git commit -m "Initial commit"
+   44  git push -h
+   45  git push -u origin master
+   46  echo "=============== setup an existing project on a new repo ============"
+   47  echo "============= make a development branch =================="
+   48  git checkout -b development
+   49  ls -a
+   50  clasp pull
+   51  echo "========================= check diff from dev ==================="
+   52  git status
+   53  ls -a
+   54  touch .gitignore
+   55  ls
+   56  ls -a
+   57  git diff HEAD Code.js
+   58  cd d:
+   59  cd OneDrive
+   60  ls
+   61  cd Dev/
+   62  ls
+   63  ls -a
+   64  cd backOffice/
+   65  ls
+   66  cd timeSheets/
+   67  ls
+   68  rm appsscript.json 
+   69  clasp pull
+   70  clasp push
+   71  ls
+   72  clasp create 1DU_LO9FVY2d-isn0LNSnDZexhHcoxUNInM6Z-nfn2ovLYOD6amfMdEP8
+   73  rm appsscript.json 
+   74  ls
+   75  rm Code.js 
+   76  ls -a
+   77  rm .clasp.json 
+   78  clasp create 1DU_LO9FVY2d-isn0LNSnDZexhHcoxUNInM6Z-nfn2ovLYOD6amfMdEP8
+   79  clasp pull
+   80  clasp clone https://script.google.com/d/1nPAFA29fpjxNl-5mikStn-bB7GKc23R                                                              wtoCVaHlbX4aMod2moticSsNf/edit
+   81  ls -a
+   82  rm appsscript.json 
+   83  clasp clone 1DU_LO9FVY2d-isn0LNSnDZexhHcoxUNInM6Z-nfn2ovLYOD6amfMdEP8
+   84  clasp push
+   85  clasp logout
+   86  clasp login
+   87  clasp pull
+   88  clasp push
+   89  cd ..
+   90  mkdir timeSht
+   91  cd timeSht
+   92  ls -a
+   93  clasp login
+   94  clasp init
+   95  ls -a
+   96  clasp clone 1DU_LO9FVY2d-isn0LNSnDZexhHcoxUNInM6Z-nfn2ovLYOD6amfMdEP8
+   97  cat Code.js 
+   98  cat Code.js | less
+   99  atom .
+  100  clasp push
+  101  branches
+  102  git branch
+  103  git checkout master
+  104  git clone git@github.com:suleman.p.shaikh/backoffice/timeSheets/timeSheets.git
+  105  git clone git@github.com:ayahinc/backoffice/timeSheets/timeSheets.git
+  106  git init
+  107  ls
+  108  ls -a
+  109  git clone git@gitlab.com:ayahinc/backoffice/timeSheets/timeSheets.git
+  110  git branch
+  111  git branches
+  112  branches ls
+  113  git branch -h
+  114  ls -a
+  115  clasp pull
+  116  clasp push
+  117  touch .claspigore
+  118  atom .
+  119  clasp push
+  120  ls -a
+  121  ls -a
+  122  cd timeSheets/
+  123  ls -a
+  124  cd ..
+  125  ls
+  126  ls -a
+  127  clasp push
+  128  cd d:
+  129  cd Dev/back
+  130  cd Dev/
+  131  ls
+  132  cd ..
+  133  cd OneDrive
+  134  ls
+  135  cd Dev/
+  136  ls
+  137  cd backOffice/
+  138  ls -a
+  139  cd ..
+  140  mkdir ayahinc
+  141  cd ayahinc/
+  142  ls
+  143  git clone git@gitlab.com:ayahinc/backoffice/timeSheets/timeSheets.git
+  144  ls -a
+  145  cd timeSheets/
+  146  ls -a
+  147  clasp pull
+  148  clasp push
+  149  git checkout development 
+  150  git checkout gulpfile 
+  151  rm -rf
+  152  ls -a
+  153  cd ..
+  154  ls
+  155  ls -a
+  156  cd timeSheets/
+  157  ls -a
+  158  rm .clasp*
+  159  ls -a
+  160  rm appsscript.json 
+  161  rm Code.js 
+  162  ls -a
+  163  git status
+  164  git add .
+  165  git status
+  166  git commit -m "trying to clean up for clasp issues"
+  167  clasp logout
+  168  clasp login
+  169  clasp clone 1DU_LO9FVY2d-isn0LNSnDZexhHcoxUNInM6Z-nfn2ovLYOD6amfMdEP8
+  170  atom .
+  171  clasp push
+  172  clasp push
+  173  clasp versions
+  174  echo "node_modules/" > .gitignore
+  175  ls -a
+  176  git status
+  177  git add .
+  178  git status
+  179  git commit -am "Fixed clasp synch issues"
+  180  git status
+  181  git push
+  182  git branch
+  183  git push origin --delete development
+  184  git push origin --delete generateInvoice
+  185  git push origin --delete gulpfile
+  186  git checkout -b development
+  187  git push
+  188  git push -u origin development
+  189  git remote -v
+  190  cd d:
+  191  cd OneDrive
+  192  cd de
+  193  ls
+  194  cd Dev/
+  195  ls
+  196  cd ayahinc/
+  197  ls
+  198  cd timeSheets/
+  199  ls
+  200  atom .
+  201  clasp push
+  202  cd d:
+  203  cd OneDrive
+  204  cd Dev/
+  205  ls
+  206  cd ayahinc/
+  207  ls
+  208  cd timeSheets/
+  209  atom .
+  210  cd d:
+  211  cd OneDrive
+  212  ls
+  213  cd Dev/
+  214  ls
+  215  cd SMooCH/
+  216  ls
+  217  mkdir GulpTest && cd GulpTest
+  218  npm ls -g | grep gulp
+  219  npm ls | grep gulp
+  220  echo "============ installing gulp ==============="
+  221  history
+  222  npm install -g gulp
+  223  npm ls | grep gulp-cli
+  224  npm ls -g | grep gulp-cli
+  225  npm install gulp-cli -g
+  226  npm ls | grep gulp-cli
+  227  npm ls -g | grep gulp-cli
+  228  ls
+  229  npm init
+  230  cat package.json 
+  231  npm install gulp -D
+  232  cat package
+  233  cat package.json 
+  234  cd d:
+  235  cd OneDrive/Dev/SMooCH/
+  236  ls -a
+  237  mkdir myFirstClasp && cd myFirstClasp
+  238  ls
+  239  ls -a
+  240  clasp login
+  241  npm install @google/clasp -g
+  242  npm ls 
+  243  npm ls -g
+  244  npm ls -g | less
+  245  npm ls -g | grep typescript
+  246  npm ls | grep typescript
+  247  npm install typescript -g
+  248  clasp login
+  249  clasp create MyFirstClasp
+  250  ls -a
+  251  ls
+  252  ls -a
+  253  cat .clasp.json 
+  254  atom .
+  255  clasp pull
+  256  cat Code.js 
+  257  clasp pull
+  258  cat Code.js 
+  259  clasp push
+  260  ls -a
+  261  cat .clasp.json 
+  262  touch .claspignore
+  263  cat .claspignore 
+  264  ls -a
+  265  cd ../..
+  266  ls -a
+  267  cd ayahinc/
+  268  ls
+  269  cd timeSheets/
+  270  ls
+  271  ls -a
+  272  atom .
+  273  cd ../..
+  274  cd SMooCH/myFirstClasp/
+  275  ls -a
+  276  echo "**/**" > .claspignore
+  277  cat .claspignore 
+  278  echo "jumblepopp" > .claspignore
+  279  cat .claspignore 
+  280  echo "**/**" > .claspignore
+  281  cat .claspignore 
+  282  echo '!appsscript.json' >> .claspignore
+  283  cat .claspignore 
+  284  cat .claspignore 
+  285  cd d:
+  286  cd OneDrive/Dev/ayahinc/timeSheets/
+  287  ls
+  288  cat .claspignore 
+  289  cd D
+  290  cd d:
+  291  pwd
+  292  cd ./OneDrive/Dev/ayahinc/
+  293  ls
+  294  mkdir trello && cd trello
+  295  git clone git@gitlab.com:ayahinc/trello/createCard.git
+  296  ls
+  297  cd createCard/
+  298  ls
+  299  ls -a
+  300  touch README.md
+  301  git add README.md
+  302  git commit -m "add README"
+  303  git push -u origin master
+  304  touch .gitignore
+  305  touch .claspignore
+  306  atom .
+  307  git status
+  308  git add .
+  309  git status
+  310  git commit -am "created ignore files for clasp and git"
+  311  git push -u origin master
+  312  clasp create createTrelloCard
+  313  صلاسٱ ٱَ
+  314  clasp pull
+  315  git commit -am "initialized GAS script via clasp" -u
+  316  git commit -am "initialized GAS script via clasp"
+  317  git add -am "initialized GAS script via clasp"
+  318  git add .
+  319  git commit -m "init GAS script via clasp"
+  320  git push -u origin master
+  321  git checkout -b development
+  322  git ls -a
+  323  ls -a
+  324  git push -u
+  325  git push -u origin development 
+  326  git checkout -b f_URLFetchApp
+  327  git push -u 
+  328  git push -u origin f_URLFetchApp
+  329  git checkout development 
+  330  ls -a
+  331  git checkout -b getTrelloBoard
+  332  clasp pull
+  333  git push -u origin getTrelloBoard 
+  334  git status
+  335  git add setting\ up\ a\ trello\ key.txt 
+  336  ls -a
+  337  git status
+  338  git commit -m 'coded getTrelloBoard which returns the board id'
+  339  git push -u origin getTrelloBoard 
+  340  cat Code.js 
+  341  git push -u
+  342  git status
+  343  git add .
+  344  git status 
+  345  git push -u
+  346  git commit -m 'created function getTrelloBoard which returns the boardId'
+  347  git push -u
+  348  git checkout development 
+  349  git merge 
+  350  git merge -h
+  351  git branches
+  352  git branch
+  353  git merge getTrelloBoard 
+  354  git push origin development 
+  355  git branches
+  356  git branch
+  357  git checkout -b createTrelloCardForBoard
+  358  git status
+  359  git add .
+  360  git status
+  361  atom .
+  362  clasp pull
+  363  clasp push
+  364  clasp pull
+  365  clasp push
+  366  git status
+  367  git add .
+  368  git commit -m "created getTrelloBoardIdByName, added JSDoc, and tested"
+  369  git push -u origin development 
+  370  git branch
+  371  git push
+  372  git push -u origin getTrelloBoardByName 
+  373  git checkout development 
+  374  git merge getTrelloBoardByName 
+  375  git push -u origin development 
+  376  git branch -d getTrelloBoardByName 
+  377  git push -u
+  378  git checkout getTrelloBoardByName 
+  379  git push -u
+  380  git push -D origin getTrelloBoardByName 
+  381  git push --delete origin getTrelloBoardByName 
+  382  git branches
+  383  git branch
+  384  git remote prune origin
+  385  git branch
+  386  git checkout development 
+  387  git remote prune origin
+  388  git branches
+  389  git branch
+  390  git branch -D getTrelloBoardByName 
+  391  git branch
+  392  history
+  393  git branch
+  394  git branch -D getTrelloBoard
+  395  git branch
+  396  git branch -D createTrelloCardForBoard 
+  397  git branch -D f_URLFetchApp 
+  398  ssh-keygen
+  399  cat /c/Users/ayahi/.ssh/id_rsa.pub
+  400  git push --delete
+  401  git branch
+  402  git push --delete origin getTrelloBoard 
+  403  history
+  404  git remote prune origin
+  405  git branch
+  406  git status
+  407  git checkout -b getBoardLists
+  408  git status 
+  409  git push -u
+  410  git push -u origin getBoardLists 
+  411  clasp push
+  412  clasp pull
+  413  clasp push
+  414  clasp pull
+  415  clasp push
+  416  git status
+  417  git commit -am "getTrelloBoardListsById function completed"
+  418  git status
+  419  git add .
+  420  git commit -m "added boardsJson.json file"
+  421  git push -u origin getBoardLists 
+  422  git status
+  423  git checkout development 
+  424  git merge getBoardLists 
+  425  git push -u 
+  426  git push origin --delete getBoardLists 
+  427  git branch -d getBoardLists 
+  428  git branch
+  429  git checkout -b addCardToList
+  430  clasp pull
+  431  git status
+  432  git add .
+  433  clasp pull
+  434  clasp push
+  435  clasp pull
+  436  apm install compare-files
+  437  atom .
+  438  clasp pull
+  439  clasp push
+  440  git status
+  441  git add .
+  442  git status
+  443  git commit -am "addCardToList functionality completed, performed analysis on card json to determine if watcher can be added - appears not, next step to add member"
+  444  git push -u origin addCardToList 
+  445  git checkout development 
+  446  git merge addCardToList 
+  447  git push -u
+  448  git push origin --delete addCardToList 
+  449  git branch -d addCardToList 
+  450  git branch
+  451  git checkout -b getMemberIdByUserName
+  452  git push -u
+  453  git push -u origin getMemberIdByUserName 
+  454  atom .
+  455  git status
+  456  clasp pull
+  457  ls -a
+  458  cp Code.js Code.js.180412
+  459  git add .
+  460  git commit -m "added some JSDoc, and backed up code.js"
+  461  git push -u origin generateInvoice 
+  462  clasp push
+  463  git checkout development 
+  464  git merge generateInvoice 
+  465  git checkout -b splittingFiles
+  466  git branch
+  467  git push -u
+  468  git push -u origin splittingFiles 
+  469  clasp pull
+  470  git add .
+  471  git commit -m "created a separate file for timeSheet specific code"
+  472  git push -u origin splittingFiles 
+  473  clasp push
+  474  cat .claspignore 
+  475  echo ".claspignore.js" >> .claspignore 
+  476  cat .claspignore 
+  477  echo '!*.' >> .claspignore 
+  478  clasp push
+  479  clasp push
+  480  clasp push
+  481  clasp push
+  482  clasp push
+  483  clasp push
+  484  clasp push
+  485  clasp push
+  486  git status
+  487  git add .
+  488  git push -u origin splittingFiles 
+  489  git commit -m "separeted out getTimeDetails.js, added an additional file redacted.js to parse out potential unwanted code"
+  490  git status
+  491  git push -u origin splittingFiles 
+  492  git checkout development 
+  493  git merge splittingFiles 
+  494  history
+  495  git push -u
+  496  git push origin --delete splittingFiles 
+  497  git branch -d splittingFiles 
+  498  git branch
+  499  npm install -g local-npm
+  500  local-npm
+  501  ls -a
+  502  cat gulp
+  503  cat gulpfile.js 
+  504  history
+  505  history > 1804220300_history.txt
